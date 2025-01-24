@@ -1,0 +1,1 @@
+The solution involves checking if the component is still mounted before accessing or updating the component state within the asynchronous operation's callback.  This ensures that the cleanup function is correctly executed and the state is not manipulated after the component has unmounted.  This can be done using a ref to track the component's mounted status.
